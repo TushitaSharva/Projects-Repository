@@ -1,0 +1,40 @@
+.reg-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.reg-container h1{
+  color: #fff;
+}
+
+.reg-btn {
+  background-color: rgb(152, 66, 13);
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.reg-btn:hover{
+  background-color: #3C3735;
+}
+
+.reg-btn-block {
+  width: 100%;
+}
+
+.login-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+}
